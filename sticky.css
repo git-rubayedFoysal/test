@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    width: 500px;
+    background-color: #ddd;
+    color: #fff;
+    height: auto;
+    margin: auto;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.top_navbar{
+    background-color: chocolate;
+    text-align: center;
+    padding: 15px;
+    font-size: 25px;
+}
+.sticky_navbar{
+    background-color: crimson;
+    padding: 8px;
+    text-align: center;
+    font-size: 18px;
+    position: -webkit-sticky;
+    position: sticky;
+    scroll-behavior: smooth;
+    top: 0;
+}
+p{
+    text-align: justify;
+    color: #000;
+    padding: 20px;
+}

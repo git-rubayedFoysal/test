@@ -1,0 +1,139 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 700px;
+    min-height: 300px;
+    margin: 2rem auto;
+    box-shadow: 0 1px 5px 0 rgba(0, 0, 0, 0.2);
+    font-family: 'Poppins', sans-serif;
+    border-radius: 0.25rem;
+    -webkit-border-radius: 0.25rem;
+    -moz-border-radius: 0.25rem;
+    -ms-border-radius: 0.25rem;
+    -o-border-radius: 0.25rem;
+    background-color: #fff; 
+}
+
+.header{
+    background-color: #333;
+    width: 100%;
+    border-top-left-radius: 0.25rem;
+    border-top-right-radius: 0.25rem;
+    padding: 1rem;
+}
+.header h1{
+    font-size: 24px;
+    color: #fff;
+    font-size: 500;
+}
+
+.form-section{
+    padding: 1rem 2rem;
+    width: 100%;
+}
+
+.inline-form{
+    width: 100%;
+    display: flex;
+    gap: 1rem;
+    justify-content: space-between;
+    align-items: center;
+}
+.form-group{
+    width: 100%;
+    margin-bottom: 2rem;
+}
+.form-group>label{
+    font-size: 18px;
+    display: block;
+    color: #333;
+    font-weight: bold;
+}
+
+.form-group > input[type=text], input[type=email], input[type=password], input[type=tel],select,textarea{
+    width: 100%;
+    padding: 0.5rem;
+    margin-top: 0.5rem;
+    border: 1px solid #ddd;
+    outline: none;
+    border-radius: 0.25rem;
+    -webkit-border-radius: 0.25rem;
+    -moz-border-radius: 0.25rem;
+    -ms-border-radius: 0.25rem;
+    -o-border-radius: 0.25rem;
+    color: #333;
+    font-family: 'Poppins', sans-serif;
+}
+.radio-inline-group{
+    display: flex;
+}
+.radio-inline{
+    display: flex;
+    gap: 0.5rem;
+    margin-top: 0.5rem;
+    align-items: center;
+    margin-right: 1rem;
+}
+.bio textarea{
+    height: 120px;
+    resize: none;
+    color: #333;
+}
+
+.btn{
+    border: none;
+    outline: none;
+    background-color: transparent;
+    font-size: 0.9rem;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.btn:hover{
+    cursor: pointer;
+}
+
+.btn-reset{
+    border: 2px solid crimson;
+    color: crimson;
+    padding: 0.5rem 1rem;
+    border-radius: 0.25rem;
+    -webkit-border-radius: 0.25rem;
+    -moz-border-radius: 0.25rem;
+    -ms-border-radius: 0.25rem;
+    -o-border-radius: 0.25rem;
+    margin-right: 0.8rem;
+}
+
+.btn-reset:hover{
+    background-color: crimson;
+    color: #fff;
+    transition: all 0.6s ease-in-out;
+    -webkit-transition: all 0.6s ease-in-out;
+    -moz-transition: all 0.6s ease-in-out;
+    -ms-transition: all 0.6s ease-in-out;
+    -o-transition: all 0.6s ease-in-out;
+}
+
+.btn-submit{
+    border: 2px solid #000;
+    color: #fff;
+    background-color: #000;
+    border-radius: 0.25rem;
+    -webkit-border-radius: 0.25rem;
+    -moz-border-radius: 0.25rem;
+    -ms-border-radius: 0.25rem;
+    -o-border-radius: 0.25rem;
+    padding: 0.5rem 1rem;
+}
+.btn-submit:hover{
+    background-color: transparent;
+    color: #000;
+    transition: all 0.5s ease-in-out;
+    -webkit-transition: all 0.5s ease-in-out;
+    -moz-transition: all 0.5s ease-in-out;
+    -ms-transition: all 0.5s ease-in-out;
+    -o-transition: all 0.5s ease-in-out;
+}
